@@ -1,0 +1,30 @@
+{
+  "name": "@justinribeiro/code-block",
+  "description": "A web component that utilizes Prism.js and LitElement to display nicely formatted code.",
+  "author": "Justin Ribeiro <justin@justinribeiro.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:justinribeiro/code-block.git"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "code-block.js",
+  "module": "code-block.js",
+  "dependencies": {
+    "lit-element": "^2.1.0",
+    "prismjs": "^1.16.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0"
+  },
+  "keywords": [
+    "polymer",
+    "polymer 3",
+    "web components",
+    "lit-html",
+    "lit-element",
+    "prismjs"
+  ]
+}
