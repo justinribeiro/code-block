@@ -11,13 +11,13 @@
   "main": "code-block.js",
   "module": "code-block.js",
   "dependencies": {
-    "lit-element": "^2.1.0",
-    "prismjs": "^1.16.0"
+    "lit-element": "^2.2.1",
+    "prismjs": "^1.17.1"
   },
   "devDependencies": {
-    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
-    "@webcomponents/webcomponentsjs": "^2.0.0",
-    "wct-browser-legacy": "^1.0.0"
+    "@polymer/iron-demo-helpers": "^3.1.0",
+    "@webcomponents/webcomponentsjs": "^2.3.0",
+    "wct-browser-legacy": "^1.0.2"
   },
   "keywords": [
     "polymer",

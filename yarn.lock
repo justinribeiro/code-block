@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-3.0.2.tgz#80cdaa7225db2359130dfb2c6d9a3be1820020c3"
   integrity sha512-tx5TauYSmzsIvmSqepUPDYbs4/Ejz2XbZ1IkD7JEGqkdNUJlh+9KU85G56Tfdk/xjEZ8zorFfN09OSwiMrIQWA==
 
-"@polymer/iron-demo-helpers@^3.0.0-pre.19":
+"@polymer/iron-demo-helpers@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@polymer/iron-demo-helpers/-/iron-demo-helpers-3.1.0.tgz#89dbbc019f9200331d77c94144d8afc9920dc122"
   integrity sha512-C+U9ghRnjluJNLIga7r30YGNuQeCu7E7mOOcjgWOL/bMfWvrnbr2TcYoO4DXHO6NdUfV6daGtRA1VwG3d8H39g==
@@ -71,7 +71,7 @@
   resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.9.2.tgz#6a3a65951b5a97279dd9b92cc277dd815d0e1fad"
   integrity sha512-GsD7RpDVrVdgC6e+D8zQia8RGNmEGQ9/qotnVPQYPrIXhGS5xSt6ZED9YmuHz3HbLqY+E54tE1EK3tjLzSCGrw==
 
-"@webcomponents/webcomponentsjs@^2.0.0":
+"@webcomponents/webcomponentsjs@^2.0.0", "@webcomponents/webcomponentsjs@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-2.3.0.tgz#d17c67e9602d46f5a6c425bc00613bba83dcd0e2"
   integrity sha512-sR6FOrNnnncRuoJDqq9QxtRsJMbIvASw4vnJwIYKVlKO3AMc+NAr/bIQNnUiTTE9pBDTJkFpVaUdjJaRdsjmyA==
@@ -348,7 +348,7 @@ json3@3.3.2:
   resolved "https://registry.yarnpkg.com/json3/-/json3-3.3.2.tgz#3c0434743df93e2f5c42aee7b19bcb483575f4e1"
   integrity sha1-PAQ0dD35Pi9cQq7nsZvLSDV19OE=
 
-lit-element@^2.1.0:
+lit-element@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-2.2.1.tgz#79c94d8cfdc2d73b245656e37991bd1e4811d96f"
   integrity sha512-ipDcgQ1EpW6Va2Z6dWm79jYdimVepO5GL0eYkZrFvdr0OD/1N260Q9DH+K5HXHFrRoC7dOg+ZpED2XE0TgGdXw==
@@ -505,7 +505,7 @@ path-is-absolute@^1.0.0:
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
-prismjs@^1.11.0, prismjs@^1.16.0:
+prismjs@^1.11.0, prismjs@^1.17.1:
   version "1.17.1"
   resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.17.1.tgz#e669fcbd4cdd873c35102881c33b14d0d68519be"
   integrity sha512-PrEDJAFdUGbOP6xK/UsfkC5ghJsPJviKgnQOoxaDbBjwc8op68Quupwt1DeAFoG8GImPhiKXAvvsH7wDSLsu1Q==
@@ -616,7 +616,7 @@ type-detect@^1.0.0:
     object.entries "^1.1.0"
     safe-buffer "^5.1.2"
 
-wct-browser-legacy@^1.0.0:
+wct-browser-legacy@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wct-browser-legacy/-/wct-browser-legacy-1.0.2.tgz#6be39174bd37e2903028d3dbd2292f9c4ec59767"
   integrity sha512-23rbZwBh/DxWU36htJN9lsyBq3NxgVbuyMUq7fgFP6ZVTel+uFWO6LPXPoZQ6VyvXvlUYLE5PxY+ZdJ88a4COw==
