@@ -28,7 +28,7 @@ yarn add @justinribeiro/code-block
 After install, import into your project:
 
 ```js
-import 'code-block';
+import '@justinribeiro/code-block';
 ```
 
 Finally, use as required:
