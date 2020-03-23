@@ -11,12 +11,12 @@
   "main": "code-block.js",
   "module": "code-block.js",
   "dependencies": {
-    "lit-element": "^2.2.1",
+    "lit-element": "^2.3.1",
     "prismjs": "^1.17.1"
   },
   "devDependencies": {
     "@polymer/iron-demo-helpers": "^3.1.0",
-    "@webcomponents/webcomponentsjs": "^2.3.0",
+    "@webcomponents/webcomponentsjs": "^2.4.3",
     "wct-browser-legacy": "^1.0.2"
   },
   "keywords": [
