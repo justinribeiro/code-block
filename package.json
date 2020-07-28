@@ -7,7 +7,7 @@
     "url": "git@github.com:justinribeiro/code-block.git"
   },
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "code-block.js",
   "module": "code-block.js",
   "dependencies": {
