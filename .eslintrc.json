@@ -6,8 +6,7 @@
   },
   "env": {
     "browser": true,
-    "es6": true,
-    "node": true
+    "es6": true
   },
   "plugins": [
     "html"
@@ -34,7 +33,7 @@
       "switches": "never"
     }],
     "space-in-parens": "error",
-    "singleQuote": true
+    "singleQuote": 2
   },
   "globals": {
     "customElements": false,

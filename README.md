@@ -1,4 +1,5 @@
-[![npm version](https://badge.fury.io/js/%40justinribeiro%2Fcode-block.svg)](https://badge.fury.io/js/%40justinribeiro%2Fcode-block)
+[![npm version](https://badge.fury.io/js/%40justinribeiro%2Fcode-block.svg)](https://badge.fury.io/js/%40justinribeiro%2Fcode-block) [![min+gzip](https://badgen.net/bundlephobia/minzip/@justinribeiro/code-block)](https://bundlephobia.com/result?p=@justinribeiro/code-block)
+
 
 # \<code-block\>
 
