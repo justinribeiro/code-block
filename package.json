@@ -11,7 +11,7 @@
   "main": "code-block.js",
   "module": "code-block.js",
   "dependencies": {
-    "lit-element": "^2.3.1",
+    "lit": "^2.0.0-rc.1",
     "prismjs": "^1.17.1"
   },
   "peerDependencies": {
@@ -19,15 +19,17 @@
   },
   "devDependencies": {
     "@polymer/iron-demo-helpers": "^3.1.0",
+    "@web/dev-server": "^0.1.16",
     "@webcomponents/webcomponentsjs": "^2.4.3",
     "eslint": "^7.5.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-html": "^6.0.2",
     "wct-browser-legacy": "^1.0.2"
   },
+  "scripts": {
+    "dev": "web-dev-server --node-resolve --watch --open"
+  },
   "keywords": [
-    "polymer",
-    "polymer 3",
     "web components",
     "lit-html",
     "lit-element",
