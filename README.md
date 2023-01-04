@@ -1,6 +1,5 @@
 [![npm version](https://badge.fury.io/js/%40justinribeiro%2Fcode-block.svg)](https://badge.fury.io/js/%40justinribeiro%2Fcode-block)
 
-
 # \<code-block\>
 
 > A web component that displays colorfully formatted code with Prism.js and Lit.
@@ -11,7 +10,7 @@
 
 * Loads [Prism.js](https://prismjs.com/) language definitions on demand via dynamic imports from `node_modules/prismjs/components/`
 * Loads Prism.js custom themes
-* Built as a web component on [LitElement](https://lit-element.polymer-project.org/)
+* Built as a web component on [Lit](https://lit.dev/)
 
 ## Install
 

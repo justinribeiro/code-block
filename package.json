@@ -1,6 +1,6 @@
 {
   "name": "@justinribeiro/code-block",
-  "description": "A web component that utilizes Prism.js and LitElement to display nicely formatted code.",
+  "description": "A web component that utilizes Prism.js and Lit to display nicely formatted code.",
   "author": "Justin Ribeiro <justin@justinribeiro.com>",
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
   },
   "keywords": [
     "web components",
-    "lit-html",
+    "lit",
     "lit-element",
     "prismjs"
   ]
