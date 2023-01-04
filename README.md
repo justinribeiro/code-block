@@ -3,7 +3,7 @@
 
 # \<code-block\>
 
-> A web component that displays colorfully formatted code with Prism.js and LitElement.
+> A web component that displays colorfully formatted code with Prism.js and Lit.
 
 ![screenshot of code-block](https://user-images.githubusercontent.com/643503/56254054-0ce02600-6074-11e9-9caf-e9dcc25b3ab1.png)
 
@@ -57,27 +57,3 @@ flexibility.
 ## Building
 
 If you want the ability to load the full spectrum of languages that Prism supports, you'll want to make sure your build script includes the `/node_modules/prismjs/**`, as there are many many language resources (and you don't want them all in your bundle, utilize the dynamic loading).
-
-## Develop
-
-```bash
-$ git clone git@github.com:justinribeiro/code-block.git
-$ cd code-block
-$ yarn install
-$ polymer serve
-```
-
-## Polyfills Required
-
-`code-block` utilizes Custom Elements and Shadow DOM ([Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)). As you can see in the table below, you'll need some polyfills to make use of this across a wide range of browsers.
-
-| Platform Support   | Chrome | Chrome for Android | Firefox | Safari | iOS Safari | Edge | IE 11 |
-| ------------------ |:------:|:------:|:------:|:------:|:------:|:----:|:-----:|
-| Supported          |✓|✓|✓|✓|✓|✓|✓|✓|
-| Polyfill(s) Required |-|-|✓|✓|✓|✓|✓|✓|
-
-Within your project, you can load them as such:
-
-```html
-<script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-```

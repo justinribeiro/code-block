@@ -3,28 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
-
     <title>code-block demo</title>
-
-    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-
-    <script type="module">
-      import '@polymer/iron-demo-helpers/demo-pages-shared-styles';
-      import '@polymer/iron-demo-helpers/demo-snippet';
-    </script>
-
     <script type="module" src="../code-block.js"></script>
-
-    <custom-style>
-      <style is="custom-style" include="demo-pages-shared-styles">
-      </style>
-    </custom-style>
+    <style>
+      * {
+        box-sizing: content-box;
+      }
+      body {
+        max-width: 800px;
+        margin: auto;
+      }
+      pre {
+        width: 100%;
+        padding: 1em;
+        overflow-x: scroll;
+        background-clip: z;
+        background-color: #eee;
+      }
+      .styleIt {
+        width: 400px;
+      }
+      #bigBlock {
+        height: 600px;
+      }
+    </style>
   </head>
   <body>
-    <div class="vertical-section-container centered">
+    <div>
       <h3>Basic code-block demo</h3>
-      <demo-snippet>
-        <template>
+<pre>
+&lt;code-block language=&quot;javascript&quot;&gt;
+function helloWorld(say) {
+  console.log(say);
+}
+
+helloWorld(&apos;Hi there!&apos;);
+&lt;/code-block&gt;
+</pre>
+
 <code-block language="javascript">
 function helloWorld(say) {
   console.log(say);
@@ -32,31 +48,36 @@ function helloWorld(say) {
 
 helloWorld('Hi there!');
 </code-block>
-        </template>
-      </demo-snippet>
 
       <h3>code-block custom theme</h3>
-      <demo-snippet>
-        <template>
+<pre>
+&lt;code-block language=&quot;c&quot; theme=&quot;/node_modules/prismjs/themes/prism-twilight.css&quot;&gt;
+#include &amp;lt;stdio.h&amp;gt;
+int main() {
+  printf(&quot;Hello, I am C World!&quot;);
+}
+&lt;/code-block&gt;
+</pre>
 <code-block language="c" theme="/node_modules/prismjs/themes/prism-twilight.css">
 #include &lt;stdio.h&gt;
 int main() {
   printf("Hello, I am C World!");
 }
 </code-block>
-        </template>
-      </demo-snippet>
 
       <h3>code-block non-clike language</h3>
-      <demo-snippet>
-        <template>
+<pre>
+&lt;code-block language=&quot;fortran&quot; theme=&quot;/node_modules/prismjs/themes/prism-okaidia.css&quot;&gt;
+program HelloWorld
+  write (*,*) &apos;Hello, world!&apos;   ! This is an inline comment
+end program HelloWorld
+&lt;/code-block&gt;
+</pre>
 <code-block language="fortran" theme="/node_modules/prismjs/themes/prism-okaidia.css">
 program HelloWorld
   write (*,*) 'Hello, world!'   ! This is an inline comment
 end program HelloWorld
 </code-block>
-        </template>
-      </demo-snippet>
     </div>
   </body>
 </html>
